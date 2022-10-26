@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <div class="logo"><img src="https://www.hoyoverse.com/_nuxt/img/logo-light.3def3bc.png"></div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#preview">Preview</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#trailer">Trailer</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Others
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.instagram.com/genshinimpact/">Instagram</a></li>
+                      <li><a class="dropdown-item" href="https://www.youtube.com/c/genshinimpact">YouTube</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://genshin.hoyoverse.com/id/">Other Website</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div class="bgimg">
+            <section id="home">
+            <div class="wrapper">
+              <img src="https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/2465517595f5ea9f225d52ed73a4d0db.png" class="rounded mx-auto d-block" alt="genshinlogo">
+              <h1 class="maintext" font-family="myfont">Step Into a Vast Magical World of Adventure</h1>
+              <a href="#trailer"><img src="https://act.hoyoverse.com/puzzle/upload/puzzle/2022/10/24/1695dc04e9c97c632f0de21e252a4b58_7685061682467421932.gif?x-oss-process=image/format,webp/quality,Q_90" class="animated" alt="animated"></a>
+              <div class="posterarrows">
+                <div class="posterarrow posterarrow1"></div>
+                <div class="posterarrow posterarrow2"></div>
+                <div class="posterarrow posterarrow3"></div>
+              </div>
+            </div>
+            </section>
+          <div class="bgimg2">
+            <section id="preview">
+              <h1 class="maintext2" font-family="myfont">Preview</h1><br><br><br><br>
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://i.ibb.co/9rWrtb9/Screenshot-18.png" class="d-block w-100" alt="firstpv">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color:rgb(255, 136, 0)">Starfell Valley</h5>
+                      <p>It is considered the most diverse region of Mondstadt, spreading far from the tip of Stormbearer Point to the ends of the Whispering Woods.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://i.postimg.cc/PrDW2MKb/Screenshot-12.png" class="d-block w-100" alt="secondpv">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color:rgb(255, 136, 0)">Avidya Forest</h5>
+                      <p>Avidya Forest is a lush, green forest located in eastern Sumeru.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://i.postimg.cc/tC7RhXd8/Screenshot-15.png" class="d-block w-100" alt="thirdpv">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color:rgb(255, 136, 0)">Windwail Highland</h5>
+                      <p>It is home to the idyllic town of Springvale and the chief winery of Mondstadt.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://i.postimg.cc/yYQbdtbH/Screenshot-16.png" class="d-block w-100" alt="secondpv">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="color:rgb(255, 136, 0)">Dragonspine</h5>
+                      <p>It is a vast mountain, engulfed with ancient ruins and snow-capped areas, and also containing the remains of Durin.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+          </div>
+          <div class="bgimg3">
+            <section id="trailer">
+              <h1 class="maintext3" font-family="myfont">Trailer</h1>
+              <div class="center">
+              <iframe src="https://www.youtube.com/embed/xdKay6bhIMg"></iframe>
+              </div>
+            </section>
+          </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>
